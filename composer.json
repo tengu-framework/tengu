@@ -1,0 +1,22 @@
+{
+    "name": "tengu/tengu",
+    "description": "The Tengu Framework.",
+    "keywords": ["framework", "tengu"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shea Lewis",
+            "email": "shea.lewis89@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "tengu/framework": "1.0.*@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "minimum-stability": "stable"
+}
